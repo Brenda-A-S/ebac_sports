@@ -23,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "api": "json-server --watch src/data/db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +53,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "json-server": "^1.0.0-beta.3",
     "prettier": "2.8.3"
   }
 }

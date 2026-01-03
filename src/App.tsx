@@ -3,7 +3,6 @@ import { store } from './store'
 import { GlobalStyle } from './styles'
 import Header from './components/Header'
 import Produtos from './containers/Produtos'
-import { useObterProdutosQuery } from './services/api'
 
 function App() {
   return (

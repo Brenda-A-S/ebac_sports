@@ -1,25 +1,22 @@
-import Produto from '../components/Produto'
+import { useGetProdutosQuery } from '../services/api'
+import ProdutoComponent from '../components/Produto'
 import * as S from './styles'
-import { useObterProdutosQuery } from '../services/api'
 
-const ProdutosComponent = () => {
-  const { data: produtos, isLoading, isError } = useObterProdutosQuery()
+const ListaProdutos = () => {
+  const { data: produtos, isLoading, error } = useGetProdutosQuery()
 
-  if (isLoading) {
-    return <div>Carregando produtos...</div>
-  }
-
-  if (isError) {
-    return <div>Erro ao carregar produtos</div>
-  }
+  if (isLoading) return <p>Carregando...</p>
+  if (error) return <p>Erro ao carregar</p>
 
   return (
     <S.Produtos>
       {produtos?.map((produto) => (
-        <Produto key={produto.id} produto={produto} />
+        <li key={produto.id}>
+          <ProdutoComponent produto={produto} />
+        </li>
       ))}
     </S.Produtos>
   )
 }
 
-export default ProdutosComponent
+export default ListaProdutos

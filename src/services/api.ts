@@ -3,12 +3,14 @@ import { Produto } from '../types'
 
 export const produtosApi = createApi({
   reducerPath: 'produtosApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'https://fake-api-tau.vercel.app/api' }),
+  baseQuery: fetchBaseQuery({
+    baseUrl: 'http://localhost:3001'
+  }),
   endpoints: (builder) => ({
-    obterProdutos: builder.query<Produto[], void>({
-      query: () => 'ebac_sports'
+    getProdutos: builder.query<Produto[], void>({
+      query: () => 'produtos'
     })
   })
 })
 
-export const { useObterProdutosQuery } = produtosApi
+export const { useGetProdutosQuery } = produtosApi

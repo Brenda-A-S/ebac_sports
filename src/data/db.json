@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Tênis Nike Air Zoom",
+      "preco": 399.9,
+      "imagem": "https://imgnike-a.akamaihd.net/1920x1920/059653IEA2.jpg",
+      "descricao": "Tênis confortável e leve para corrida e treinos diários."
+    },
+    {
+      "id": 2,
+      "nome": "Camisa Adidas Dry Fit",
+      "preco": 149.9,
+      "imagem": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d796eb96178c4bc193e507ec6cb0c42d_9366/Camisa_adidas_Crazy_Lite_Preto_JX6382_21_model.jpg",
+      "descricao": "Camisa esportiva com tecnologia dry fit para melhor respirabilidade."
+    },
+    {
+      "id": 3,
+      "nome": "Bermuda Puma Training",
+      "preco": 129.9,
+      "imagem": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/635405/90/mod01/fnd/BRA/fmt/png",
+      "descricao": "Bermuda confortável ideal para treinos e atividades físicas."
+    },
+    {
+      "id": 4,
+      "nome": "Tênis Olympikus Corre 3",
+      "preco": 349.9,
+      "imagem": "https://vulcabras.vtexassets.com/arquivos/ids/307817-1600-1600?v=638768057006300000&width=1600&height=1600&aspect=true",
+      "descricao": "Tênis nacional com excelente custo-benefício para corrida."
+    },
+    {
+      "id": 5,
+      "nome": "Jaqueta Nike Corta Vento",
+      "preco": 289.9,
+      "imagem": "https://imgnike-a.akamaihd.net/1920x1920/011917IDA13.jpg",
+      "descricao": "Jaqueta leve e resistente ao vento para atividades ao ar livre."
+    },
+    {
+      "id": 6,
+      "nome": "Calça Legging Adidas",
+      "preco": 199.9,
+      "imagem": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/dd9b83628f004856bdadd53bec9a4688_9366/Legging_7-8_Ultimate_adidas_Preto_JE8037_21_model.jpg",
+      "descricao": "Legging confortável com alta elasticidade para treinos intensos."
+    },
+    {
+      "id": 7,
+      "nome": "Tênis Mizuno Wave Prophecy",
+      "preco": 1499.9,
+      "imagem": "https://mizunobr.vtexassets.com/arquivos/ids/258370/102289003_1-059-01.jpg?v=639029848389300000",
+      "descricao": "Tênis premium com máximo amortecimento para longas distâncias."
+    },
+    {
+      "id": 8,
+      "nome": "Moletom Puma Essentials",
+      "preco": 219.9,
+      "imagem": "https://images.puma.com/image/upload/f_auto,q_auto,w_2000,b_rgb:FAFAFA/global/633803/10/mod01/fnd/BRA/fmt/png",
+      "descricao": "Moletom casual confortável para o dia a dia."
+    },
+    {
+      "id": 9,
+      "nome": "Short Nike Running",
+      "preco": 119.9,
+      "imagem": "https://imgnike-a.akamaihd.net/1920x1920/024847IDA2.jpg",
+      "descricao": "Short leve e respirável ideal para corridas."
+    },
+    {
+      "id": 10,
+      "nome": "Camiseta Under Armour Tech",
+      "preco": 159.9,
+      "imagem": "https://underarmourbr.vtexassets.com/arquivos/ids/417006-1200-auto?v=639015118156800000&width=1200&height=auto&aspect=true",
+      "descricao": "Camiseta com tecido tecnológico que seca rapidamente."
+    }
+  ]
+}

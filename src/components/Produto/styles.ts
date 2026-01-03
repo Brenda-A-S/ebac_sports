@@ -2,7 +2,15 @@ import styled from 'styled-components'
 
 import { cores } from '../../styles'
 
-export const Produto = styled.div``
+export const Produto = styled.div`
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  :hover {
+    transform: scale(1.02);
+  }
+`
 
 export const Titulo = styled.h3`
   min-height: 64px;
@@ -44,22 +52,7 @@ export const Tag = styled.span`
   font-weight: 700;
   color: #fff;
 `
-export const Plataformas = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 8px 0 0;
 
-  li {
-    background-color: ${cores.corPrincipal};
-    padding: 8px;
-    font-size: 10px;
-    white-space: nowrap;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    color: #fff;
-    font-weight: bold;
-  }
-`
 export const BtnComprar = styled.button`
   display: block;
   width: 100%;
