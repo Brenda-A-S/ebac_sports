@@ -4,11 +4,11 @@ import { Produto } from '../types'
 export const produtosApi = createApi({
   reducerPath: 'produtosApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:3001'
+    baseUrl: 'https://api-ebac.vercel.app/api/ebac_sports/'
   }),
   endpoints: (builder) => ({
     getProdutos: builder.query<Produto[], void>({
-      query: () => 'produtos'
+      query: () => ''
     })
   })
 })
